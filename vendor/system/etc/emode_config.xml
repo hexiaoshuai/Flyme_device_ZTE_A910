@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<settings
+		auto_emode_vediotest_enable="yes"
+		auto_emode_vediotest_time="30"
+		auto_emode_reboottest_enable="yes"
+		auto_emode_reboottest_time="100"
+		auto_emode_wakeuptest_enable="yes"
+		auto_emode_wakeuptest_time="50"
+		auto_emode_cameratest_enable="yes"
+		auto_emode_cmaeratest_time="20"
+		auto_emode_cameraswitchtest_enable="yes"
+		auto_emode_cameraswitchtest_time="200"
+		auto_emode_vibratortest_enable="yes"
+		auto_emode_vibratortest_time="30"
+		/>
+</config>

@@ -1,0 +1,15 @@
+<resources>
+	<!--use internal plugin-->
+    <string name="operator_china_telecom">
+		P653N31,P_P653N31
+    </string>
+	
+    <string name="operator_china_mobile">
+		T_P653N31
+    </string>
+		
+    <string name="operator_china_unicom">
+        V_P653N31
+    </string>
+
+</resources>
