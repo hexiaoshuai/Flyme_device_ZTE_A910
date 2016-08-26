@@ -3388,6 +3388,8 @@
     :goto_1
     iput-boolean v1, p0, Landroid/content/res/Configuration;->simSetLocale:Z
 
+    invoke-static/range {p0 .. p1}, Landroid/content/res/Configuration$FlymeInjector;->readFromParcel(Landroid/content/res/Configuration;Landroid/os/Parcel;)V
+
     return-void
 
     :cond_1
@@ -3564,6 +3566,8 @@
 
     iput-boolean v0, p0, Landroid/content/res/Configuration;->simSetLocale:Z
 
+    invoke-static/range {p0 .. p1}, Landroid/content/res/Configuration$FlymeInjector;->initFlymeExtraFields(Landroid/content/res/Configuration;Landroid/content/res/Configuration;)V
+
     return-void
 .end method
 
@@ -3622,6 +3626,8 @@
     iput v1, p0, Landroid/content/res/Configuration;->seq:I
 
     iput-boolean v1, p0, Landroid/content/res/Configuration;->simSetLocale:Z
+
+    invoke-static/range {p0 .. p0}, Landroid/content/res/Configuration$FlymeInjector;->initFlymeExtraFields(Landroid/content/res/Configuration;)V
 
     return-void
 .end method
@@ -5090,6 +5096,11 @@
     or-int/lit8 v0, v0, 0x4
 
     :cond_1b
+
+    invoke-static {p0, p1, v0}, Landroid/content/res/Configuration$FlymeInjector;->updateFrom(Landroid/content/res/Configuration;Landroid/content/res/Configuration;I)I
+
+    move-result v0
+
     return v0
 
     .end local v1    # "deltaScreenLayoutDir":I
@@ -5218,6 +5229,8 @@
     invoke-virtual {p1, v2}, Landroid/os/Parcel;->writeInt(I)V
 
     :goto_2
+    invoke-static/range {p0 .. p2}, Landroid/content/res/Configuration$FlymeInjector;->writeToParcel(Landroid/content/res/Configuration;Landroid/os/Parcel;I)V
+
     return-void
 
     :cond_0
