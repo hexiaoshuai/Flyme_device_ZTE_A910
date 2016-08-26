@@ -2099,7 +2099,7 @@
 
     .prologue
     .line 170
-    invoke-direct {p0}, Lcom/android/internal/policy/impl/PhoneWindowManager;->showNavigationBar()V
+    #invoke-direct {p0}, Lcom/android/internal/policy/impl/PhoneWindowManager;->showNavigationBar()V
 
     return-void
 .end method
