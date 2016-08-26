@@ -1176,7 +1176,9 @@
 
     move-result-object v1
 
-    invoke-interface {v1}, Landroid/bluetooth/IBluetoothHeadsetPhone;->restrictDualTalk()Z
+#hxs fix bluetooth headset connect err begin
+    #invoke-interface {v1}, Landroid/bluetooth/IBluetoothHeadsetPhone;->restrictDualTalk()Z
+#hxs fix bluetooth headset connect err end
     :try_end_0
     .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
 
