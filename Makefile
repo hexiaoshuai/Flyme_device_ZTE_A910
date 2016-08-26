@@ -57,7 +57,7 @@ vendor_modify_images := boot
 vendor_saved_apps := Bluetooth KeyChain HTMLViewer UserDictionaryProvider BackupRestoreConfirmation \
                      FusedLocation PrintSpooler SharedStorageBackup  ExternalStorageProvider InputDevices \
                      ProxyHandler Shell DefaultContainerService SuperSU Camera_ZTE FmRadio_ZTE MIPop \
-		     zgesture FPService fingerprint
+		     zgesture FPService fingerprint NfcNci
 
 ##############################################################################
 # The value decides which vendor apk you want to modify.
@@ -99,7 +99,7 @@ board_saved_files := lib/libwebviewchromium.so lib64/libwebviewchromium.so bin/b
 # The default value is nothing.
 # You can configure the board system apk name in the value.
 #-----------------------------------------------------------------------------
-board_remove_apps := Search
+board_remove_apps := NfcNci Search
 
 ##############################################################################
 # The value decides which apk you want to modify, when the apk is based on the board system apk.
