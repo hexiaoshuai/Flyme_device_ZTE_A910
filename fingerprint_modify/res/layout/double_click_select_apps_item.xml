@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.CheckedTextView android:textAppearance="?android:textAppearanceListItem" android:textColor="@android:color/black" android:gravity="center_vertical" android:id="@id/text" android:paddingTop="@dimen/select_app_list_padding_top" android:paddingBottom="@dimen/select_app_list_padding_bottom" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checkMark="?android:listChoiceIndicatorSingle" android:drawablePadding="8.0dip" android:paddingStart="@dimen/select_app_list_padding_start" android:paddingEnd="@dimen/select_app_list_padding_end"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

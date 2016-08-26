@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?android:activatedBackgroundIndicator" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="115.0dip" android:paddingEnd="?android:scrollbarSize"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <Button android:textSize="16.0sp" android:id="@id/preference_screen_button" android:background="@drawable/botton_namol" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginBottom="16.0dip" android:scaleType="fitXY" android:text="hahah" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

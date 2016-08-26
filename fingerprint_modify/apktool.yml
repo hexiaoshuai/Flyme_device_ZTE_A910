@@ -1,0 +1,23 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: fingerprint.apk
+compressionType: false
+doNotCompress:
+- arsc
+- PNG
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '21'
+  targetSdkVersion: '22'
+sharedLibrary: false
+unknownFiles: {}
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.1.1-04d478-SNAPSHOT
+versionInfo:
+  versionCode: '20'
+  versionName: 1.0.10

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorSecondary" android:id="@android:id/summary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/toast_speak_p650a30" android:paddingStart="@dimen/select_app_list_padding_start" android:paddingEnd="@dimen/select_app_list_padding_end" />
+    <TextView android:id="@id/summary1" android:layout_width="fill_parent" android:layout_height="40.0dip" />
+</LinearLayout>

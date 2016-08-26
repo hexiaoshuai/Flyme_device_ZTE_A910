@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zte.mifavor.preference.PreferenceScreen android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zte.mifavor.preference.PreferenceCategory android:title="@string/fingerprint_function" android:key="fingerprint_manage">
+        <com.zte.mifavor.preference.Preference android:title="@string/fingerprint_manager" android:key="fingerCount" android:summary="@string/fingerprint_manager_and_setting_sum" />
+        <com.zte.mifavor.preference.SwitchPreference android:title="@string/black_wakeup_unlock" android:key="lock_for_screen" android:summary="@string/black_wakeup_unlock_sum" />
+        <com.zte.mifavor.preference.SwitchPreference android:title="@string/access_app_ctl_tip" android:key="lock_for_application" android:summary="@string/access_app_ctl_tip_sum" />
+        <com.zte.mifavor.preference.SwitchPreference android:title="@string/access_privacy_ctl_tip" android:key="lock_for_secret_zone" android:summary="@string/access_privacy_ctl_tip_sum" />
+        <com.zte.mifavor.preference.Preference android:title="@string/quick_open_application" android:key="quick_open_app" android:summary="@string/quick_open_application_sum" android:dependency="lock_for_screen" />
+    </com.zte.mifavor.preference.PreferenceCategory>
+    <com.zte.mifavor.preference.PreferenceCategory android:title="@string/long_click" android:key="touch_for">
+        <com.zte.mifavor.preference.SwitchPreference android:title="@string/touch_for_take_photo_tip" android:key="touch_for_take_photo" android:summary="@string/touch_for_take_photo_sum" />
+        <com.zte.mifavor.preference.SwitchPreference android:title="@string/touch_for_answer_call_tip" android:key="touch_for_answer_call" android:summary="@string/touch_for_answer_call_sum" />
+    </com.zte.mifavor.preference.PreferenceCategory>
+</com.zte.mifavor.preference.PreferenceScreen>
