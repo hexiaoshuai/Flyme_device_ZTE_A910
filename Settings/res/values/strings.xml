@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <add-resource type="string" name="gesture_title" />
+    <item type="string" name="gesture_title">Gesture</item>
+    <add-resource type="string" name="fp_title" />
+    <item type="string" name="fp_title">Touch ID</item>
+</resources>
