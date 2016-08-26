@@ -7,6 +7,8 @@
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
         Lcom/android/server/am/BroadcastQueue$AppNotResponding;,
+        Lcom/android/server/am/BroadcastQueue$PowerSupperInjector;,
+        Lcom/android/server/am/BroadcastQueue$FlymeBroadcastQueueInjector;,
         Lcom/android/server/am/BroadcastQueue$BroadcastHandler;,
         Lcom/android/server/am/BroadcastQueue$AnrBroadcastQueue;
     }
@@ -8174,6 +8176,8 @@
 
     .line 1052
     :cond_36
+    invoke-static/range {v33 .. v33}, Lcom/android/server/am/BroadcastQueue$FlymeBroadcastQueueInjector;->setCurrentBroadcastRecord(Lcom/android/server/am/BroadcastRecord;)V
+
     move-object/from16 v0, p0
 
     iget-object v4, v0, Lcom/android/server/am/BroadcastQueue;->mService:Lcom/android/server/am/ActivityManagerService;
