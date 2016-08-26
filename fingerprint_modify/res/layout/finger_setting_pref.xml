@@ -4,20 +4,15 @@
     <com.zte.mifavor.preference.PreferenceCategory android:title="@string/fingerprint_function" android:key="fingerprint_manage">
         <com.zte.mifavor.preference.Preference android:title="@string/fingerprint_manager" android:key="fingerCount" android:summary="@string/fingerprint_manager_and_setting_sum" />
         <com.zte.mifavor.preference.SwitchPreference android:title="@string/black_wakeup_unlock" android:key="lock_for_screen" android:summary="@string/black_wakeup_unlock_sum" />
-        <com.zte.mifavor.preference.SwitchPreference android:title="@string/access_app_ctl_tip" android:key="lock_for_application" android:summary="@string/access_app_ctl_tip_sum" />
-        <com.zte.mifavor.preference.SwitchPreference android:title="@string/access_privacy_ctl_tip" android:key="lock_for_secret_zone" android:summary="@string/access_privacy_ctl_tip_sum" />
         <com.zte.mifavor.preference.Preference android:title="@string/quick_open_application" android:key="quick_open_app" android:summary="@string/quick_open_application_sum" android:dependency="lock_for_screen" />
     </com.zte.mifavor.preference.PreferenceCategory>
     <com.zte.mifavor.preference.PreferenceCategory android:title="@string/long_click" android:key="touch_for">
         <com.zte.mifavor.preference.SwitchPreference android:title="@string/touch_for_take_photo_tip" android:key="touch_for_take_photo" android:summary="@string/touch_for_take_photo_sum" />
-        <com.zte.mifavor.preference.SwitchPreference android:title="@string/touch_for_answer_call_tip" android:key="touch_for_answer_call" android:summary="@string/touch_for_answer_call_sum" />
     </com.zte.mifavor.preference.PreferenceCategory>
     <com.zte.mifavor.preference.PreferenceCategory android:title="@string/double_click" android:key="touch_for">
         <com.zte.mifavor.preference.Preference android:title="@string/touch_for_double_click_open_tip" android:key="double_click_start_application" android:summary="@string/touch_for_double_click_open_sum" />
     </com.zte.mifavor.preference.PreferenceCategory>
     <com.zte.mifavor.preference.PreferenceCategory android:title="@string/slip_operation" android:key="touch_for">
         <com.zte.mifavor.preference.SwitchPreference android:title="@string/touch_for_check_notification_tip" android:key="view_notification" android:summary="@string/touch_for_check_notification_sum" />
-        <com.zte.mifavor.preference.SwitchPreference android:title="@string/touch_for_check_recent_application_tip" android:key="view_recent_applications" android:summary="@string/touch_for_check_recent_application_sum" />
-        <com.zte.mifavor.preference.SwitchPreference android:title="@string/touch_for_Browse_pictures_tip" android:key="view_photos" android:summary="@string/touch_for_Browse_pictures_sum" />
     </com.zte.mifavor.preference.PreferenceCategory>
 </com.zte.mifavor.preference.PreferenceScreen>

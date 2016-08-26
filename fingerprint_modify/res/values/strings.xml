@@ -152,6 +152,6 @@
     <string name="long_click">Press &amp; hold</string>
     <string name="double_click">Double tap</string>
     <string name="slip_operation">Swipe</string>
-    <string name="toast_speak">Tip:Press &amp; hold,Double tap and Swipe without verify.</string>
-    <string name="toast_speak_p650a30">Tip:Press &amp; hold without verify.</string>
+    <string name="toast_speak"></string>
+    <string name="toast_speak_p650a30"></string>
 </resources>

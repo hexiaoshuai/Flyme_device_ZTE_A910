@@ -95,6 +95,8 @@
 
     move-result v0
 
+    const v0, 4287734701
+
     .line 25
     .local v0, "bg":I
     invoke-virtual {p0}, Lcom/zte/fingerprint/main/AbstractActivity;->initActionBar()V

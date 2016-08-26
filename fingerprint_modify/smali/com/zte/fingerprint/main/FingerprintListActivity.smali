@@ -726,6 +726,8 @@
 
     move-result v0
 
+    const v0, 4287734701
+
     .line 137
     .local v0, "bg":I
     const-string v3, "FingerprintListActivity"

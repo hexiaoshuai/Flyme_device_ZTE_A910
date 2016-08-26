@@ -522,23 +522,23 @@
 
     invoke-direct {v12, p0, v0, v5}, Lcom/zte/fingerprint/main/FingerSettingActivity$2;-><init>(Lcom/zte/fingerprint/main/FingerSettingActivity;ILcom/zte/mifavor/preference/SwitchPreference;)V
 
-    invoke-virtual {v5, v12}, Lcom/zte/mifavor/preference/SwitchPreference;->setOnPreferenceClickListener(Lcom/zte/mifavor/preference/Preference$OnPreferenceClickListener;)V
+    #invoke-virtual {v5, v12}, Lcom/zte/mifavor/preference/SwitchPreference;->setOnPreferenceClickListener(Lcom/zte/mifavor/preference/Preference$OnPreferenceClickListener;)V
 
     .line 289
     new-instance v12, Lcom/zte/fingerprint/main/FingerSettingActivity$3;
 
     invoke-direct {v12, p0, v0, v9}, Lcom/zte/fingerprint/main/FingerSettingActivity$3;-><init>(Lcom/zte/fingerprint/main/FingerSettingActivity;ILcom/zte/mifavor/preference/SwitchPreference;)V
 
-    invoke-virtual {v9, v12}, Lcom/zte/mifavor/preference/SwitchPreference;->setOnPreferenceClickListener(Lcom/zte/mifavor/preference/Preference$OnPreferenceClickListener;)V
+    #invoke-virtual {v9, v12}, Lcom/zte/mifavor/preference/SwitchPreference;->setOnPreferenceClickListener(Lcom/zte/mifavor/preference/Preference$OnPreferenceClickListener;)V
 
     .line 302
     invoke-virtual {v8, p0}, Lcom/zte/mifavor/preference/SwitchPreference;->setOnPreferenceChangeListener(Lcom/zte/mifavor/preference/Preference$OnPreferenceChangeListener;)V
 
     .line 303
-    invoke-virtual {v5, p0}, Lcom/zte/mifavor/preference/SwitchPreference;->setOnPreferenceChangeListener(Lcom/zte/mifavor/preference/Preference$OnPreferenceChangeListener;)V
+    #invoke-virtual {v5, p0}, Lcom/zte/mifavor/preference/SwitchPreference;->setOnPreferenceChangeListener(Lcom/zte/mifavor/preference/Preference$OnPreferenceChangeListener;)V
 
     .line 304
-    invoke-virtual {v9, p0}, Lcom/zte/mifavor/preference/SwitchPreference;->setOnPreferenceChangeListener(Lcom/zte/mifavor/preference/Preference$OnPreferenceChangeListener;)V
+    #invoke-virtual {v9, p0}, Lcom/zte/mifavor/preference/SwitchPreference;->setOnPreferenceChangeListener(Lcom/zte/mifavor/preference/Preference$OnPreferenceChangeListener;)V
 
     .line 306
     const-string v12, "quick_open_app"
@@ -1141,6 +1141,8 @@
     invoke-static {v3, v4, v5}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
 
     move-result v0
+
+    const v0, 4287734701
 
     .line 85
     .local v0, "bg":I

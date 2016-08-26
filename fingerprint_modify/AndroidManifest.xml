@@ -10,6 +10,8 @@
         <activity android:label="@string/fingerprint" android:name="com.zte.fingerprint.main.FingerSettingActivity" android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="com.zte.fingerprint.main.FingerSettingActivity"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>

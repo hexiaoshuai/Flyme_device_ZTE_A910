@@ -58,7 +58,7 @@
     <string name="app_name">指纹服务</string>
     <string name="apply_to">将指纹应用于</string>
     <string name="black_wakeup_unlock">唤醒解锁</string>
-    <string name="black_wakeup_unlock_sum">允许手机在黑屏和锁屏界面通过指纹解锁</string>
+    <string name="black_wakeup_unlock_sum">在黑屏或锁屏界面通过指纹解锁（需设置锁屏密码）</string>
     <string name="access_app_ctl_tip">访问应用锁</string>
     <string name="access_app_ctl_tip_sum">允许通过验证指纹来访问掌心管家的应用锁</string>
     <string name="access_privacy_ctl_tip">访问私密空间</string>
@@ -133,6 +133,6 @@
     <string name="long_click">长按操作</string>
     <string name="double_click">双击操作</string>
     <string name="slip_operation">滑动操作</string>
-    <string name="toast_speak">说明：长按、双击和滑动操作无需校验指纹信息。</string>
-    <string name="toast_speak_p650a30">说明：长按操作无需校验指纹信息。</string>
+    <string name="toast_speak">可使用应用加密，使指纹更加安全</string>
+    <string name="toast_speak_p650a30">可使用应用加密，使指纹更加安全</string>
 </resources>
