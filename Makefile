@@ -57,7 +57,7 @@ vendor_modify_images := boot
 vendor_saved_apps := Bluetooth KeyChain HTMLViewer UserDictionaryProvider BackupRestoreConfirmation \
                      FusedLocation PrintSpooler SharedStorageBackup  ExternalStorageProvider InputDevices \
                      ProxyHandler Shell DefaultContainerService SuperSU Camera_ZTE FmRadio_ZTE MIPop \
-		     zgesture FPService fingerprint NfcNci
+		     zgesture FPService fingerprint NfcNci MiraVision_ZTE SchedulePowerOnOff
 
 ##############################################################################
 # The value decides which vendor apk you want to modify.
